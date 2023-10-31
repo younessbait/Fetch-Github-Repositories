@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Finger Paint', cursive;
+}
+
+.container {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .search {
+    background-color: rgb(253, 236, 214);
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+}
+
+.container input {
+    font-size: 20px;
+    font-family: 'Finger Paint', cursive;
+    padding: 15px;
+    font-weight: bolder;
+    border: 1px solid rgb(196, 194, 194);
+    width: 70%;
+    text-align: center;
+}
+
+.container input:focus {
+    outline: none;
+
+    border: 2px solid rgb(252, 163, 99);
+}
+
+.container button {
+    font-family: 'Finger Paint', cursive;
+    padding: 15px;
+    cursor: pointer;
+    width: 20%;
+    border: none;
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(252, 163, 99);
+}
+
+.content {
+    text-align: center;
+    background-color: rgb(252, 163, 99);
+    padding: 20px;
+    width: 90%;
+    color: white;
+    font-weight: bolder;
+}
+
+.element {
+    font-size: 20px;
+    background-color: rgb(253, 197, 157);
+    padding: 20px;
+    margin-bottom: 10px;
+    font-family: 'Finger Paint', cursive;
+}
+
+.element a,
+span {
+    float: right;
+    margin: 0 20px;
+}
+
+.element span {
+    color: black;
+}
+
+.element a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 64, 64);
+    padding: 5px;
+    border-radius: 10px;
+}
